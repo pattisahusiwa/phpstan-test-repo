@@ -3,3 +3,5 @@ parameters:
     paths:
         - src/ShouldNotWork.php
         - src/ShouldWork.php
+    featureToggles:
+        disableRuntimeReflectionProvider: true
